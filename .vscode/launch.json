@@ -10,8 +10,8 @@
             "request": "launch",
             "program": "${workspaceFolder}/install/${input:package}/lib/${input:package}/${input:program}",
             "args": [],
-            "preLaunchTask": "source-humble",
-            "envFile": "${workspaceFolder}/local_humble_ws.env",
+            "preLaunchTask": "source-jazzy",
+            "envFile": "${workspaceFolder}/local_jazzy_ws.env",
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "externalConsole": false,
@@ -45,8 +45,8 @@
         {
             "name": "Python: ROS2 current file",
             "type": "python",
-            "preLaunchTask": "source-humble",
-            "envFile": "${workspaceFolder}/local_humble_ws.env",
+            "preLaunchTask": "source-jazzy",
+            "envFile": "${workspaceFolder}/local_jazzy_ws.env",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
@@ -55,9 +55,9 @@
             "name": "Python: ROS2 launch test",
             "type": "python",
             "request": "launch",
-            "preLaunchTask": "source-humble",
-            "envFile": "${workspaceFolder}/local_humble_ws.env",
-            "program": "/opt/ros/humble/bin/launch_test",
+            "preLaunchTask": "source-jazzy",
+            "envFile": "${workspaceFolder}/local_jazzy_ws.env",
+            "program": "/opt/ros/jazzy/bin/launch_test",
             "args": ["${file}"],
             "console": "integratedTerminal"
         }
